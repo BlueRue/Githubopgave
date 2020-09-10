@@ -34,3 +34,25 @@ img {
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
+
+div:hover {
+    background-color: #2e5032;
+    border-radius: 90px;
+    border: #8dea90 solid 10px;
+
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 25ms;
+}
+
+div {
+    margin: 10%;
+    height: 500px;
+    width: 80%;
+    border: black solid 2px;
+    background-color: darkseagreen;
+
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 25ms;
+}
