@@ -35,7 +35,7 @@ img {
     height: auto; /* Højden skal tilpasse sig */
 }
 
-div:hover {
+/*div:hover {
     background-color: #2e5032;
     border-radius: 90px;
     border: #8dea90 solid 10px;
@@ -55,4 +55,31 @@ div {
     transition-duration: 1s;
     transition-timing-function: ease;
     transition-delay: 25ms;
+}*/
+
+.popular-type {
+    display: flex;
+    justify-content: center;
+
+}
+.popular-item {
+    margin: 0 10px 0 10px;
+    color: #69696e;
+    text-decoration: none;
+    font-size: 17px;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.popular-item:hover {
+    color: #63a8bc;
+
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
